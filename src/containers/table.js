@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { connect } from 'react-redux'
 import * as categoriesActions from '../store/categories/actions'
 import * as categoriesSelectors from '../store/categories/reducer'
-import Product from '../components/Product'
+import Product from './../components/Product'
 import Products from './Products'
 
 const Table = (props) => {
