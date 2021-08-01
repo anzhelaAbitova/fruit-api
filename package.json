@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "CI= react-scripts build",
+    "build": "craco build",
     "test": "craco test",
     "pretty": "prettier --write **/*.js && git add .",
     "eject": "react-scripts eject"
