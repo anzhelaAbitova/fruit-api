@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react'
 import { connect } from 'react-redux'
 import * as categoriesActions from '../store/categories/actions'
 import * as categoriesSelectors from '../store/categories/reducer'
-import Product from './../components/Product'
-import Products from './Products'
+import Product from './../components/Product.js'
+import Products from './Products.js'
 
 const Table = (props) => {
   const [data, setData] = useState([])
